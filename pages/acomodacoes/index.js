@@ -4,7 +4,6 @@ import { fadeIn, fadeInDown, fadeInLeft, shake, zoomInUp } from 'react-animation
 import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import { MenuContext } from '../../components/context/menucontext'
-import firebase from 'firebase/app';
 import "firebase/firestore";
 import { Helmet } from "react-helmet";
 import Modal from 'react-modal';
@@ -203,7 +202,7 @@ const BtnSubTitle = styled.div`
      }
 `
 const Right = styled.div`
-    padding-top: 50px;
+    padding-top: 20px;
     overflow: auto;
     width: 30%;
     background:  ${props => props.theme.colors.nydark};
@@ -219,7 +218,7 @@ const AcomodItem = styled.div`
    
 `
 const AcomodTitle = styled.div`
-      margin-left: 10px;
+    margin-left: 10px;
     font-size: 18px;
     color: white;
     margin-bottom: 15px;
@@ -279,6 +278,15 @@ const layout2Set = [
     { src: "https://firebasestorage.googleapis.com/v0/b/morando-em-barao.appspot.com/o/lofts%2Fcristiano-new-york%2Fny18.jpg?alt=media&token=f6861be0-49bd-401b-99b8-29facc5bff97", alt: "New York" },
     { src: "https://firebasestorage.googleapis.com/v0/b/morando-em-barao.appspot.com/o/lofts%2Fcristiano-new-york%2Fny19.jpg?alt=media&token=bdb0406c-a4c1-4e1d-851a-6028ec7f2db9", alt: "New York" },
     { src: "https://firebasestorage.googleapis.com/v0/b/morando-em-barao.appspot.com/o/lofts%2Fcristiano-new-york%2Fny20.jpg?alt=media&token=0abc84c5-6b6c-427d-a1e3-b00c4b08a236", alt: "New York" },
+]
+
+const layout3Set = [
+    { src: "https://firebasestorage.googleapis.com/v0/b/new-york-city-village.appspot.com/o/fotos_site%2Fbicicletario.jpeg?alt=media&token=38bb06fa-ee28-420f-a366-65dbb05cb15e", alt: "bicicletario" },
+    { src: "https://firebasestorage.googleapis.com/v0/b/new-york-city-village.appspot.com/o/fotos_site%2Fchurrasqueira.jpeg?alt=media&token=d8dd698f-c641-4738-aba7-9c39619ff91a", alt: "churrasqueira" },
+    { src: "https://firebasestorage.googleapis.com/v0/b/new-york-city-village.appspot.com/o/fotos_site%2Fpiscina_sauna.jpeg?alt=media&token=45a0006a-54fc-4465-8079-f84806217c63", alt: "piscina_sauna" },
+    { src: "https://firebasestorage.googleapis.com/v0/b/new-york-city-village.appspot.com/o/fotos_site%2Fsauna.jpeg?alt=media&token=0e457df7-6107-4746-b873-ca5b1a2f3497", alt: "sauna" },
+    { src: "https://firebasestorage.googleapis.com/v0/b/new-york-city-village.appspot.com/o/fotos_site%2Fsolarium.jpeg?alt=media&token=418daaa3-073b-4fb0-a5b3-e06c48cf200e", alt: "solarium" },
+    { src: "https://firebasestorage.googleapis.com/v0/b/new-york-city-village.appspot.com/o/fotos_site%2Fsolarium1.jpeg?alt=media&token=70251262-4973-42f4-b9a8-31e11858b5bf", alt: "solarium" },
 ]
 
 
@@ -386,14 +394,14 @@ const Acomodacoes = () => {
                             preset='desktop'
                         />
                     </AcomodItem>
-                    {/* <AcomodItem>
-                        <AcomodTitle>Layout 3</AcomodTitle>
+                    <AcomodItem>
+                        <AcomodTitle>Acomodações</AcomodTitle>
                         <AcomodCover 
-                            src='https://firebasestorage.googleapis.com/v0/b/new-york-city-village.appspot.com/o/home-page%2Fnewyork%20-cover.jpg?alt=media&token=854ab967-e073-4057-b6a2-86aca9d35afb' alt='new york' 
+                            src='https://firebasestorage.googleapis.com/v0/b/new-york-city-village.appspot.com/o/fotos_site%2Fsolarium1.jpeg?alt=media&token=70251262-4973-42f4-b9a8-31e11858b5bf' alt='solarium' 
+                            set={layout3Set}
+                            preset='desktop'
                         />
-                    </AcomodItem> */}
-
-                    {/* <Cover src='https://firebasestorage.googleapis.com/v0/b/new-york-city-village.appspot.com/o/home-page%2Fnewyork%20-cover.jpg?alt=media&token=854ab967-e073-4057-b6a2-86aca9d35afb' /> */}
+                    </AcomodItem>
                 </Right>
 
             </Columns>
