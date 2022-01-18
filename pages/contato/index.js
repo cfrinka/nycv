@@ -203,7 +203,7 @@ const Contato = () => {
                                 <Btn>Ligar</Btn>
                             </a>
 
-                            <a href={`https://wa.me/5511984052877?text=Olá,%20estou%20entrando%20em%20contato%20pelo%20site`} rel="noopener nofollower" target="_blank">
+                            <a href={`https://wa.me/5519984052877?text=Olá,%20estou%20entrando%20em%20contato%20pelo%20site`} rel="noopener nofollower" target="_blank">
                                 <Btn>Whatsapp</Btn>
                             </a>
 
