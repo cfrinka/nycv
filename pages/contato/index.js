@@ -197,13 +197,13 @@ const Contato = () => {
                     <Body>
                         <>
                             <MainTitle>ENTRE EM CONTATO COM O NEW YORK</MainTitle>
-                            <Txt1>(11) 98881-3871</Txt1>
+                            <Txt1>(19) 98405-2877</Txt1>
 
-                            <a href={`tel:+55-11-988813871`}>
+                            <a href={`tel:+55-19-984052877`}>
                                 <Btn>Ligar</Btn>
                             </a>
 
-                            <a href={`https://wa.me/5511988813871?text=Olá,%20estou%20entrando%20em%20contato%20pelo%20site`} rel="noopener nofollower" target="_blank">
+                            <a href={`https://wa.me/5511984052877?text=Olá,%20estou%20entrando%20em%20contato%20pelo%20site`} rel="noopener nofollower" target="_blank">
                                 <Btn>Whatsapp</Btn>
                             </a>
 
