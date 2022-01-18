@@ -229,13 +229,15 @@ const redoMercado = [
     { local: 'Pague Menos', dist: '1400m | 5 min de carro | 18 min a pé' }
 ]
 const redoEmpresa = [
-    { local: 'Venturus', dist: 'xm | 2 min de carro | 8 min a pé' },
-    { local: 'Eldorado', dist: 'xm | 6 min de carro | 31 min a pé' },
-    { local: 'Boldrini', dist: 'xm | 7 min de carro | 49 min a pé.' },
-    { local: 'Medley', dist: 'xm | 7 min de carro | 49 min a pé.' },
-    { local: 'Centro Médico', dist: 'xm | 7 min de carro | 49 min a pé.' },
-    { local: 'Samsung', dist: 'xm | 7 min de carro | 49 min a pé.' },
-    { local: 'CPQD', dist: 'xm | 7 min de carro | 49 min a pé.' }
+    { local: 'Venturus', dist: '7,5km | 12 min de carro | 55 min a pé' },
+    { local: 'Eldorado', dist: '2,6km | 6 min de carro ' },
+    { local: 'Boldrini', dist: '3,2km | 40 min a pé.' },
+    { local: 'Medley', dist: '6km | 11 min de carro | 1h e 24 min a pé.' },
+    { local: 'Centro Médico', dist: '2,8km | 5 min de carro | 21 min a pé.' },
+    { local: 'Samsung', dist: '4,5km | 10 min de carro' },
+    { local: 'CPQD', dist: '8km | 13 min de carro | 50 min a pé.' },
+    { local: 'CNPEM', dist: '5,1km | 8 min de carro | 52 min a pé.' },
+    { local: 'Luxottica', dist: '4,0km | 6 min de carro | 40 min a pé.' }
 ]
 
 

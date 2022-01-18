@@ -207,9 +207,9 @@ const Contato = () => {
                                 <Btn>Whatsapp</Btn>
                             </a>
 
-                            <Link href='/contactForm'>
+                            <a href="mailto:newyorkcityvillage@gmail.com">
                                 <Btn>Email</Btn>
-                            </Link>
+                            </a>
                         </>
                     </Body>
 

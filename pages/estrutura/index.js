@@ -217,12 +217,15 @@ const piscinaSet = [
     { src: "https://firebasestorage.googleapis.com/v0/b/morando-em-barao.appspot.com/o/lofts%2Fcristiano-new-york%2Fny32.jpg?alt=media&token=11529175-343d-40f5-81a4-d547235cfe02", alt: "New York" },
     { src: "https://firebasestorage.googleapis.com/v0/b/morando-em-barao.appspot.com/o/lofts%2Fcristiano-new-york%2Fny34.jpg?alt=media&token=e5c84bc7-6206-4665-8eda-3cee64adfe55", alt: "New York" },
     { src: "https://firebasestorage.googleapis.com/v0/b/morando-em-barao.appspot.com/o/lofts%2Fcristiano-new-york%2Fny37.jpg?alt=media&token=4cc6226a-0d8a-44a6-a598-3ac224a436f2", alt: "New York" },
+    { src: "https://firebasestorage.googleapis.com/v0/b/new-york-city-village.appspot.com/o/fotos_site%2Fpiscina_sauna.jpeg?alt=media&token=45a0006a-54fc-4465-8079-f84806217c63", alt: "piscina_sauna" },
+    { src: "https://firebasestorage.googleapis.com/v0/b/new-york-city-village.appspot.com/o/fotos_site%2Fsauna.jpeg?alt=media&token=0e457df7-6107-4746-b873-ca5b1a2f3497", alt: "sauna" },
 
 ]
 const churrasqueiraSet = [
     { src: "https://firebasestorage.googleapis.com/v0/b/morando-em-barao.appspot.com/o/lofts%2Fcristiano-new-york%2Fny26.jpg?alt=media&token=4cc4ba93-7aa2-4586-bf5f-eb39f30d270d", alt: "New York" },
     { src: "https://firebasestorage.googleapis.com/v0/b/morando-em-barao.appspot.com/o/lofts%2Fcristiano-new-york%2Fny24.jpg?alt=media&token=521e04c6-e539-47b8-9873-99e9ae4e6a32", alt: "New York" },
     { src: "https://firebasestorage.googleapis.com/v0/b/morando-em-barao.appspot.com/o/lofts%2Fcristiano-new-york%2Fny36.jpg?alt=media&token=d2000cfa-b96f-4827-94cf-5334d6bceabc", alt: "New York" },
+    { src: "https://firebasestorage.googleapis.com/v0/b/new-york-city-village.appspot.com/o/fotos_site%2Fchurrasqueira.jpeg?alt=media&token=d8dd698f-c641-4738-aba7-9c39619ff91a", alt: "churrasqueira" },
 
 ]
 const garagemSet = [
@@ -294,7 +297,7 @@ const Estrutura = () => {
 
                 <Right>
                     <AcomodItem>
-                        <AcomodTitle>Piscina</AcomodTitle>
+                        <AcomodTitle>Piscina / Sauna</AcomodTitle>
                         <AcomodCover
                             src='https://firebasestorage.googleapis.com/v0/b/morando-em-barao.appspot.com/o/lofts%2Fcristiano-new-york%2Fny21.jpg?alt=media&token=8bbc6869-f6c8-43d9-8df1-213bc689d9f2' alt='new york'
                             set={piscinaSet}
@@ -310,7 +313,7 @@ const Estrutura = () => {
                         />
                     </AcomodItem>
                     <AcomodItem>
-                        <AcomodTitle>Garagens</AcomodTitle>
+                        <AcomodTitle>Estacionamento</AcomodTitle>
                         <AcomodCover
                             src='https://firebasestorage.googleapis.com/v0/b/morando-em-barao.appspot.com/o/lofts%2Fcristiano-new-york%2Fny28.jpg?alt=media&token=a536fc04-3aa9-400d-8d76-bb965738b259' alt='new york'
                             set={garagemSet}

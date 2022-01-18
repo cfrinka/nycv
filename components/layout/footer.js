@@ -62,23 +62,23 @@ const Slogan = styled.div`
 const Footer = () => {
 
     return (
-            <FooterCanvas>
-                {/* <Slogan>
+        <FooterCanvas>
+            {/* <Slogan>
                     Slogan
                 </Slogan> */}
-                <Menu>
-                    <Link href='/'>
-                        <Logo>new york</Logo>
-                    </Link>
-                    <Link href='/'>
-                        <Site>nycv.com</Site>
-                    </Link>
-                    <a href='https://morandoembarao.com'>
-                        <Mb>MB Studio</Mb>
-                    </a>
-                </Menu>
-               
-            </FooterCanvas>
+            <Menu>
+                <Link href='/'>
+                    <Logo>new york</Logo>
+                </Link>
+                <Link href='/'>
+                    <Site>nycv.com.br</Site>
+                </Link>
+                <a href='/'>
+                    <Mb>powered by Milliark</Mb>
+                </a>
+            </Menu>
+
+        </FooterCanvas>
     )
 }
 
